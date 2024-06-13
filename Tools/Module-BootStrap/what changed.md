@@ -5,35 +5,16 @@ From current code to Sampler managed module:
     - Will you use Git for source control? Y
     - Name of your default branch (main):
     - Do you want to add configuration for GitVersion to handle automatic versioning for your project?: y
-    - Will you use GitHub.com as the collaboration platform for the project? [Y] Yes  [N] No  [?] Help (default is "N"): y
-Do you want to use Azure Pipelines to run the the build, test and or deploy pipeline?
-[Y] Yes  [N] No  [?] Help (default is "N"): n
-What is the name of the GitHub owner (personal or organization account) that will publish the module? (MyOrgName): fslef
-Will you use Visual Studio Code as the code editor for the project?
-[Y] Yes  [N] No  [?] Help (default is "N"): y
-Do you want to include a License to your project?
-[Y] Yes  [N] No  [?] Help (default is "Y"): y
-What name do you give your source folder?
-[T] The Module's name (Microsoft)  [S] source  [R] src  [?] Help (default is "R"):
-What feature would you like to add to your project?
-[*] *All
-[E] Enum
-[C] Classes
-[D] DSC Resources
-[S] Sample Scripts
-[G] Git ignore
-[U] Unit Tests
-[Q] Quality tests
-[B] Build
-[A] AppVeyor
-[K] TestKitchen
-
-[?] Help
-(default is "*")
-Choice[0]: G
-Choice[1]: U
-Choice[2]: Q
-Choice[3]: B
+    - Will you use GitHub.com as the collaboration platform for the project?: y
+    - Do you want to use Azure Pipelines to run the the build, test and or deploy pipeline?: N
+    - What is the name of the GitHub owner (personal or organization account) that will publish the module? (MyOrgName): fslef
+    - Will you use Visual Studio Code as the code editor for the project?: y
+    - Do you want to include a License to your project?: y
+    - What name do you give your source folder? : R
+    - What feature would you like to add to your project?
+        - Choice[0]: G
+        - Choice[1]: U
+        - Choice[2]: Q
+        - Choice[3]: B
 - Update the structure
     - Create a Tools folder at the root repo folder
-    -
